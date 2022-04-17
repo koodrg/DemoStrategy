@@ -1,0 +1,7 @@
+C:\Users\home\source\repos\DemoStrategy\DemoStrategy\bin\Debug\DemoStrategy.exe.config
+C:\Users\home\source\repos\DemoStrategy\DemoStrategy\bin\Debug\DemoStrategy.exe
+C:\Users\home\source\repos\DemoStrategy\DemoStrategy\bin\Debug\DemoStrategy.pdb
+C:\Users\home\source\repos\DemoStrategy\DemoStrategy\obj\Debug\DemoStrategy.csproj.AssemblyReference.cache
+C:\Users\home\source\repos\DemoStrategy\DemoStrategy\obj\Debug\DemoStrategy.csproj.CoreCompileInputs.cache
+C:\Users\home\source\repos\DemoStrategy\DemoStrategy\obj\Debug\DemoStrategy.exe
+C:\Users\home\source\repos\DemoStrategy\DemoStrategy\obj\Debug\DemoStrategy.pdb
