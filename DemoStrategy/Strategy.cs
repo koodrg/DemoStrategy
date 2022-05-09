@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DemoStrategy
 {
-    public abstract class Strategy
+    public abstract class PaymentStrategy
     {
-        public abstract void Algorithm();
+        public abstract void PaymentMethod();
     }
 }

@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConcreteStrategyA.cs" />
-    <Compile Include="ConcreteStrategyB.cs" />
+    <Compile Include="PaypalStrategy.cs" />
+    <Compile Include="CashStrategy.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -8,14 +8,14 @@ namespace DemoStrategy
 {
     public class Context
     {
-        public Strategy strategy;
-        public Context(Strategy strategy)
+        public PaymentStrategy strategy;
+        public Context(PaymentStrategy strategy)
         {
             this.strategy = strategy;
         }
         public void ContextInterface()
         {
-            strategy.Algorithm();
+            strategy.PaymentMethod();
         }
     }
 }

@@ -10,10 +10,10 @@ namespace DemoStrategy
     {
         static void Main(string[] args)
         {
-            Context context = new Context(new ConcreteStrategyA());
+            Context context = new Context(new PaypalStratefy());
             context.ContextInterface();
 
-            context = new Context(new ConcreteStrategyB());
+            context = new Context(new CashStrategy());
             context.ContextInterface();
 
             Console.ReadKey();

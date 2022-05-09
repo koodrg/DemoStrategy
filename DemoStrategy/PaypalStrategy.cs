@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DemoStrategy
 {
-    public class ConcreteStrategyA : Strategy
+    public class PaypalStratefy : PaymentStrategy
     {
-        public override void Algorithm()
+        public override void PaymentMethod()
         {
-            Console.WriteLine("Call Algorithm of ConcreteStrategyA");
+            Console.WriteLine("Pay with Paypal");
         }
     }
 }
