@@ -8,14 +8,15 @@ namespace DemoStrategy
 {
     public class Context
     {
-        public PaymentStrategy strategy;
-        public Context(PaymentStrategy strategy)
+        public IConvertStrategy _strategy;
+        public Context(IConvertStrategy strategy)
         {
-            this.strategy = strategy;
+            _strategy = strategy;
         }
-        public void ContextInterface()
+        public Context() { }
+        public void DoAlgorithm()
         {
-            strategy.PaymentMethod();
+            _strategy.ConvertFile();
         }
     }
 }

@@ -43,8 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PaypalStrategy.cs" />
-    <Compile Include="CashStrategy.cs" />
+    <Compile Include="JpgStrategy.cs" />
+    <Compile Include="PngStrategy.cs" />
+    <Compile Include="GifStrategy.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

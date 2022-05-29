@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DemoStrategy
 {
-    public abstract class PaymentStrategy
+    public interface IConvertStrategy
     {
-        public abstract void PaymentMethod();
+        void ConvertFile();
     }
 }
